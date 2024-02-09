@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: pink;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+    border-bottom: 3px solid black;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    padding: 8px 16px;
+    margin: 0 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    font-size: 15px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    outline: none;
+    background: lightcoral;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .3s;
+}
+
+header button:hover {
+    background: aliceblue;
+    color: lightcoral;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-content {
+    max-width: 1200px;
+    color: black;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.main-content button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 8px;
+    letter-spacing: .5px;
+    cursor: pointer;
+    background: lemonchiffon;
+    font-family: 600;
+    transition: .3s;
+}
+
+.main-content button:hover {
+    background: black;
+    color: pink;
+}
+
+.pic-content {
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+img {
+    position: absolute;
+    max-width: 750px;
+    left: -250px;
+    border-radius: 16px;
+    bottom: 5px;
+}
